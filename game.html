@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/gl-matrix-min.js"></script>
+    <script type="text/javascript" src="js/phrases.js"></script>
+    <script type="text/javascript" src="js/world.js"></script>
+    <script type="text/javascript" src="shaders/cube.vs.js"></script>
+    <script type="text/javascript" src="shaders/cube.fs.js"></script>
+    <script type="text/javascript" src="js/webglcore.js"></script>
+    <script type="text/javascript" src="js/engine.js"></script>
+    <script type="text/javascript" src="js/actions.js"></script>
+    <script type="text/javascript" src="js/input.js"></script>
+    <script type="text/javascript" src="js/factory.js"></script>
+    <script type="text/javascript" src="js/collider.js"></script>
+    <script type="text/javascript" src="js/gam.js"></script>
+    <script type="text/javascript" src="js/hud.js"></script>
+    <script type="text/javascript" src="js/renderable.js"></script>
+    <script type="text/javascript" src="js/renderer.js"></script>
+    <script type="text/javascript" src="js/physics.js"></script>
+    <script type="text/javascript" src="js/smoke.js"></script>
+    <script type="text/javascript" src="js/player.js"></script>
+    <script type="text/javascript" src="js/sneaks.js"></script>
+
+    <title>MAXIMUM ENFORCER</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+    $(document).ready(function()
+    {
+
+      // Powerup dat engine
+      engine = new Engine();
+      engine.Start();
+    });
+    </script>
+    <canvas id="main_canvas"></canvas>
+  </body>
+</html>
